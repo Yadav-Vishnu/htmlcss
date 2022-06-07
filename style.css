@@ -59,6 +59,7 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     margin: calc(5vw);
+    flex-wrap: wrap;
     
     
 }
