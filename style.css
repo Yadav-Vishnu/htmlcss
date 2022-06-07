@@ -83,7 +83,7 @@ body{
     flex-wrap: wrap;
 }
 .container .css{
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 .container .html > .text{
     margin-left: calc(1.5vw);
