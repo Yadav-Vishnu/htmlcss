@@ -1,9 +1,13 @@
 :root{
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: calc(1.3vw);
+    margin: 0px;
+    padding: 0px;
 }
 *,::after,::before{
     box-sizing: inherit;
+    margin: inherit;
+    padding: inherit;
 }
 .nav{
     box-sizing: border-box;
@@ -17,8 +21,8 @@
 
 }
 .html img,.css img{
-    height: 100px;
-    width: 100px;
+    height: calc(8vw);
+    width: calc(10vw);
     margin: 3px 3px;
     border-radius: 20px;
     
@@ -32,11 +36,11 @@
 .nav .text{
     border-top: 5px solid #300c63;
     width: 33%;
-    height: 109px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: calc(1em+1.5vw);
+    font-size: 2.5em;
     color: black;
     
 }
@@ -47,66 +51,57 @@
     flex-direction: row-reverse;
    
 }
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 body{
     background-color:#fcfcfc;
 }
+
 .container{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     margin: calc(5vw) 0px calc(5vw) 0px;
-    flex-wrap: wrap;
     
     
 }
-.container .img img{
-    height: 250px;
-    width: 350px;
+.container .img{
+    height: calc(15vw);
+    width: calc(25vw);
     box-shadow: 5px -10px 8px #efc53c;
+    margin: 0px 5px 0px 5px;
+    
+    
 }
 
 
 .container .html,.container .css{
     display: flex;
     margin: 0px 0px calc(10vw) 0px;
-    align-items:flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
     box-shadow: 0px 10px 8px #2857EF;
-   
-
+    flex-wrap: wrap;
     
 }
-.container .html{
-    flex-wrap: wrap;
-}
-.container .css{
-    flex-wrap: wrap;
-}
-.container .html > .text{
-    margin-left: calc(1.5vw);
-    margin-right: calc(1vw);
+.container   .text{
+   
     color: #ce5702;
     font-weight: 600;
     /* line-height: 10px; */
     font-size: 1.2em;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+    width: 68%;
+    margin-bottom: 20px;
+    
 }
 .container .css{
     flex-direction: row-reverse;
 }
 .container .css_img{
-    margin-left: calc(1vw);
+    margin-left: 0px calc(1.5vw) 0px 0px;
 }
-.container .css > .text{
-    margin-left: calc(1vw);
-    color: #ce5702;
-    font-weight: 600;
-    /* line-height: 10px; */
-    font-size: 1.2em;
-    letter-spacing: 2px;
+.container p{
+    margin: 0px 10px;
 }
 
 
