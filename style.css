@@ -64,8 +64,8 @@ body{
     
     
 }
-.container .img{
-    height: calc(15vw);
+.container .img img{
+    height: calc(40vh);
     width: calc(25vw);
     box-shadow: 5px -10px 8px #efc53c;
     margin: 0px 5px 0px 5px;
@@ -101,7 +101,7 @@ body{
     margin-left: 0px calc(1.5vw) 0px 0px;
 }
 .container p{
-    margin: 0px 10px;
+    margin:  8px;
 }
 
 
